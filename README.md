@@ -13,9 +13,40 @@
 
 ## 📊 Dataset
 
-This project uses the **Fruit Ripeness Dataset** by **Dudi Nurdiyansah**, available on Kaggle.
-- **Source**: [dudinurdiyansah/fruit-ripeness-dataset](https://www.kaggle.com/datasets/dudinurdiyansah/fruit-ripeness-dataset)
-- **Content**: Images of various fruits (Apple, Banana, Grape, Guava, etc.) classified by ripeness level.
+The project utilizes the **Fruit Ripeness Dataset** created by **Dudi Nurdiyansah** (available on Kaggle). This dataset is designed to train models to distinguish between different stages of fruit ripeness.
+
+### Class Breakdown
+The dataset contains **21 distinct classes** covering **7 types of fruits**, each with **3 ripeness stages**:
+
+| Fruit | Stages Covered |
+| :--- | :--- |
+| **Apple** | `Ripe`, `Unripe`, `Rotten` |
+| **Banana** | `Ripe`, `Unripe`, `Rotten` |
+| **Grape** | `Ripe`, `Unripe`, `Rotten` |
+| **Guava** | `Ripe`, `Unripe`, `Rotten` |
+| **Orange** | `Ripe`, `Unripe`, `Rotten` |
+| **Pomegranate** | `Ripe`, `Unripe`, `Rotten` |
+| **Strawberry** | `Ripe`, `Unripe`, `Rotten` |
+
+*   **Total Classes**: 21
+*   **Source**: [Kaggle - Fruit Ripeness Dataset](https://www.kaggle.com/datasets/dudinurdiyansah/fruit-ripeness-dataset)
+
+## 🧠 Methodology: How it Works
+
+Unlike standard Deep Learning approaches that use raw pixels, this project uses **Traditional Machine Learning** with handcrafted Feature Extraction. This makes the model lightweight and interpretable.
+
+### 1. Feature Extraction
+For every image, we extract **138 unique features** based on three visual properties:
+
+*   **Color (HSV Histogram)**:
+    *   Captures the distribution of colors (e.g., Green for unripe, Yellow/Red for ripe, Brown/Dark for rotten) using the HSV color space.
+*   **Texture (LBP - Local Binary Pattern)**:
+    *   Analyzes the surface texture differences (e.g., smooth skin of a ripe apple vs. wrinkled skin of a rotten one).
+*   **Pattern (GLCM - Gray Level Co-occurrence Matrix)**:
+    *   Measures statistical properties like **Contrast**, **Energy**, and **Homogeneity** to understand the pixel arrangement.
+
+### 2. Classification
+These features are fed into a **Random Forest / XGBoost** classifier, which has been trained to associate these specific feature patterns with the correct ripeness label. This approach enables fast predictions even on CPU.
 
 ## 🛠️ Tech Stack
 
