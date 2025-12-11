@@ -1,0 +1,13 @@
+flask
+flask-cors
+flask-bcrypt
+flask-jwt-extended
+joblib
+scikit-image
+scikit-learn
+xgboost
+opencv-python-headless
+numpy
+Pillow
+psycopg2-binary
+python-dotenv

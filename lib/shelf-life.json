@@ -1,0 +1,107 @@
+{
+  "Ripe Apple": {
+    "shelfLifeCounter": "5-7 Days",
+    "shelfLifeFridge": "4-6 Weeks",
+    "storageTip": "Store in the fridge for the longest life."
+  },
+  "Unripe Apple": {
+    "shelfLifeCounter": "1-2 Weeks",
+    "shelfLifeFridge": "1-2 Months",
+    "storageTip": "Will soften but not sweeten much. Best stored in the fridge."
+  },
+  "Rotten Apple": {
+    "shelfLifeCounter": "0 Days",
+    "shelfLifeFridge": "0 Days",
+    "storageTip": "Discard immediately. Not safe to eat."
+  },
+  "Ripe Banana": {
+    "shelfLifeCounter": "1-3 Days",
+    "shelfLifeFridge": "2-5 Days",
+    "storageTip": "For best flavor, keep on counter. Fridge will blacken peel but preserve fruit."
+  },
+  "Unripe Banana": {
+    "shelfLifeCounter": "2-5 Days",
+    "shelfLifeFridge": "Not Recommended",
+    "storageTip": "Keep on the counter to ripen. Cold stops the process."
+  },
+  "Rotten Banana": {
+    "shelfLifeCounter": "0 Days",
+    "shelfLifeFridge": "0 Days",
+    "storageTip": "Discard immediately. Not safe to eat."
+  },
+  "Ripe Grape": {
+    "shelfLifeCounter": "1 Day",
+    "shelfLifeFridge": "1-2 Weeks",
+    "storageTip": "Must be refrigerated in a ventilated bag."
+  },
+  "Unripe Grape": {
+    "shelfLifeCounter": "1 Day",
+    "shelfLifeFridge": "1-2 Weeks",
+    "storageTip": "Will not ripen further. Must be refrigerated."
+  },
+  "Rotten Grape": {
+    "shelfLifeCounter": "0 Days",
+    "shelfLifeFridge": "0 Days",
+    "storageTip": "Discard immediately. Not safe to eat."
+  },
+  "Ripe Guava": {
+    "shelfLifeCounter": "1-2 Days",
+    "shelfLifeFridge": "3-5 Days",
+    "storageTip": "Store in the refrigerator once ripe."
+  },
+  "Unripe Guava": {
+    "shelfLifeCounter": "3-5 Days",
+    "shelfLifeFridge": "Not Recommended",
+    "storageTip": "Keep on the counter to ripen."
+  },
+  "Rotten Guava": {
+    "shelfLifeCounter": "0 Days",
+    "shelfLifeFridge": "0 Days",
+    "storageTip": "Discard immediately. Not safe to eat."
+  },
+  "Ripe Orange": {
+    "shelfLifeCounter": "1 Week",
+    "shelfLifeFridge": "3-4 Weeks",
+    "storageTip": "Store in the refrigerator to maximize freshness."
+  },
+  "Unripe Orange": {
+    "shelfLifeCounter": "1 Week",
+    "shelfLifeFridge": "3-4 Weeks",
+    "storageTip": "Will not sweeten further. Store like a ripe orange."
+  },
+  "Rotten Orange": {
+    "shelfLifeCounter": "0 Days",
+    "shelfLifeFridge": "0 Days",
+    "storageTip": "Discard immediately. Not safe to eat."
+  },
+  "Ripe Pomegranate": {
+    "shelfLifeCounter": "1-2 Weeks",
+    "shelfLifeFridge": "Up to 2 Months",
+    "storageTip": "Store in a cool, dark place or refrigerate for very long life."
+  },
+  "Unripe Pomegranate": {
+    "shelfLifeCounter": "1-2 Weeks",
+    "shelfLifeFridge": "Up to 2 Months",
+    "storageTip": "Will not ripen further. Store like a ripe pomegranate."
+  },
+  "Rotten Pomegranate": {
+    "shelfLifeCounter": "0 Days",
+    "shelfLifeFridge": "0 Days",
+    "storageTip": "Discard immediately. Not safe to eat."
+  },
+  "Ripe Strawberry": {
+    "shelfLifeCounter": "1-2 Days",
+    "shelfLifeFridge": "5-7 Days",
+    "storageTip": "Must be refrigerated. Highly perishable."
+  },
+  "Unripe Strawberry": {
+    "shelfLifeCounter": "1 Day",
+    "shelfLifeFridge": "A few days",
+    "storageTip": "Will not ripen further. Refrigerate immediately."
+  },
+  "Rotten Strawberry": {
+    "shelfLifeCounter": "0 Days",
+    "shelfLifeFridge": "0 Days",
+    "storageTip": "Discard immediately. Not safe to eat."
+  }
+}
