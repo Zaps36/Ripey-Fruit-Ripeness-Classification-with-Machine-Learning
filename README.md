@@ -11,6 +11,12 @@
 - **Modern UI**: A sleek, responsive interface built with Next.js 15 and Tailwind CSS.
 - **Dark Mode**: Fully supported dark/light themes.
 
+## 📊 Dataset
+
+This project uses the **Fruit Ripeness Dataset** by **Dudi Nurdiyansah**, available on Kaggle.
+- **Source**: [dudinurdiyansah/fruit-ripeness-dataset](https://www.kaggle.com/datasets/dudinurdiyansah/fruit-ripeness-dataset)
+- **Content**: Images of various fruits (Apple, Banana, Grape, Guava, etc.) classified by ripeness level.
+
 ## 🛠️ Tech Stack
 
 ### Frontend
